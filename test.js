@@ -26,15 +26,12 @@ form.add(new former.Element('age', {
 }))
 
 var formData = {
-  name: 'Rob 123 Johnson 123',
+  name: 'My 123 Name 123',
   age: '18'
 }
 
 if (form.isValid(formData)) {
-  console.log('Valid Form');
+  console.log('Valid');
 } else {
-  console.log('Oops, you know you fucked up right?');
+  console.log('Invalid');
 }
-
-console.log(former.renderer.formElement(form.get('name')));
-console.log(former.renderer.formElement(form.get('age')));
