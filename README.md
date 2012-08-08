@@ -1,6 +1,8 @@
 # former
 
-A JavaScript form library
+A JavaScript form library.
+
+This is not finished!
 
 ## Example
 
