@@ -1,0 +1,13 @@
+{
+  "name"          : "former",
+  "description"   : "A JavaScript Form Library",
+  "url"           : "http://github.com/EntityDigital/former",
+  "keywords"      : ["form"],
+  "author"        : "Rob Johnson <rob@entitydigital.co.uk>",
+  "contributors"  : [],
+  "dependencies"  : [],
+  "lib"           : "lib",
+  "main"          : "lib/former",
+  "version"       : "0.1.0",
+  "engine"        : {"node": ">=0.4"}
+}
