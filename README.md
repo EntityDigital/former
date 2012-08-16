@@ -44,4 +44,7 @@ if (form.isValid(formData)) {
 } else {
   console.log('Invalid');
 }
+
+console.log(formData.get('name').getValue());
+// Outputs: MY NAME
 ```
